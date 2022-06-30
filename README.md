@@ -78,5 +78,5 @@ cd ./mkr
 python -m flask run
 ```
 
-### 参考文
+### 参考文献
 [Multi-Task Feature Learning for Knowledge Graph Enhanced Recommendation](https://arxiv.org/abs/1901.08907)
