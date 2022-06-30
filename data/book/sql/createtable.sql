@@ -1,0 +1,25 @@
+CREATE TABLE User
+(
+Id INT(11),
+UserPassword VARCHAR(20),
+Location VARCHAR(200),
+Age INT(11)
+);
+CREATE TABLE Books
+(
+Id INT(11),
+ISBN VARCHAR(25),
+Title VARCHAR(200),
+Author VARCHAR(200),
+Year VARCHAR(25),
+Publisher VARCHAR(200),
+ImageS VARCHAR(200),
+ImageM VARCHAR(200),
+ImageL VARCHAR(200)
+);
+CREATE TABLE Bookrating
+(
+UserId INT(11),
+ItemId INT(11),
+Rating FLOAT
+);
